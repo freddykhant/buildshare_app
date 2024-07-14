@@ -35,51 +35,23 @@ Copy the .env.local.example file to .env.local and update the variables to match
 
 ## Run the development server
 
-<b>npm run dev</b>: Scripts
+`npm run dev`: Scripts
 
-```sh
-npm run dev:
-```
+`npm run dev`: Start the development server with hot module replacement.
 
-Start the development server with hot module replacement.
+`npm run build`: Build the application for production.
 
-```sh
-npm run build:
-```
+`npm run lint`: Lint the project files.
 
-Build the application for production.
-
-```sh
-npm run lint:
-```
-
-Lint the project files.
-
-```sh
-npm run preview:
-```
-
-Preview the production build.
+`npm run preview`: Preview the production build.
 
 ### Expanding ESLint Configuration
 
-For production applications, consider enhancing the ESLint configuration for type-aware linting. Update the .eslintrc.cjs file as follows:
+For production applications, consider enhancing the ESLint configuration for type-aware linting. Update the `.eslintrc.cjs` file as follows:
 
-Use
+Use `plugin:@typescript-eslint/recommended-type-checked` for stricter type checks.
 
-```sh
-plugin:@typescript-eslint/recommended-type-checked
-```
-
-for stricter type checks.
-
-Add
-
-```shplugin:react/recommended and plugin:react-hooks/recommended
-
-```
-
-for React specific linting.
+Add `shplugin:react/recommended and plugin:react-hooks/recommended` for React specific linting.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
