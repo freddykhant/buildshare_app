@@ -40,28 +40,52 @@ npm run dev
 ```
 
 Scripts
-npm run dev: Start the development server with hot module replacement.
-npm run build: Build the application for production.
-npm run lint: Lint the project files.
-npm run preview: Preview the production build.
-Expanding ESLint Configuration
+
+```sh
+npm run dev:
+```
+
+Start the development server with hot module replacement.
+
+```sh
+npm run build:
+```
+
+Build the application for production.
+
+```sh
+npm run lint:
+```
+
+Lint the project files.
+
+```sh
+npm run preview:
+```
+
+Preview the production build.
+
+### Expanding ESLint Configuration
+
 For production applications, consider enhancing the ESLint configuration for type-aware linting. Update the .eslintrc.cjs file as follows:
 
-Use plugin:@typescript-eslint/recommended-type-checked for stricter type checks.
-Add plugin:react/recommended and plugin:react-hooks/recommended for React specific linting.
+Use
 
-Expanding ESLint Configuration
-For production applications, consider enhancing the ESLint configuration for type-aware linting. Update the .eslintrc.cjs file as follows:
+```sh
+plugin:@typescript-eslint/recommended-type-checked
+```
 
-Use plugin:@typescript-eslint/recommended-type-checked for stricter type checks.
-Add plugin:react/recommended and plugin:react-hooks/recommended for React specific linting.
-Contributing
-Contributions are welcome! Please read our Contributing Guide for details on our code of conduct and the process for submitting pull requests.
+for stricter type checks.
+
+Add
+
+```shplugin:react/recommended and plugin:react-hooks/recommended
+
+```
+
+for React specific linting.
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-```
-
 This README provides a comprehensive overview of the BuildShare project, including its features, setup instructions, available scripts, and contribution guidelines. It's tailored to replace the current README.md in your workspace, offering a more project-specific introduction and guide.
-```
