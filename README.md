@@ -35,11 +35,7 @@ Copy the .env.local.example file to .env.local and update the variables to match
 
 ## Run the development server
 
-```sh
-npm run dev
-```
-
-Scripts
+<b>npm run dev</b>: Scripts
 
 ```sh
 npm run dev:
