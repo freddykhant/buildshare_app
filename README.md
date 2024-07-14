@@ -21,15 +21,23 @@ To get started with BuildShare, follow these steps:
 ```sh
 git clone https://github.com/freddykhant/buildshare_app.git
 cd buildshare
+```
 
 ## Install Dependencies
+
+```sh
 npm install
+```
 
 ## Set up environment variables
+
 Copy the .env.local.example file to .env.local and update the variables to match your Appwrite project settings.
 
 ## Run the development server
+
+```sh
 npm run dev
+```
 
 Scripts
 npm run dev: Start the development server with hot module replacement.
@@ -56,3 +64,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ```
 
 This README provides a comprehensive overview of the BuildShare project, including its features, setup instructions, available scripts, and contribution guidelines. It's tailored to replace the current README.md in your workspace, offering a more project-specific introduction and guide.
+```
