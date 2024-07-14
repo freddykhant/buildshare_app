@@ -1,6 +1,10 @@
-# BuildShare: A React + TypeScript + Vite Project
+# BuildShare
 
-Welcome to BuildShare, a cutting-edge platform designed to enhance your building and sharing experience. This project leverages the power of React, TypeScript, and Vite to deliver a fast, efficient, and highly scalable application. With hot module replacement (HMR) for seamless development and a robust ESLint setup for code quality, BuildShare sets the stage for high-quality web application development.
+Welcome to BuildShare, the premier social media platform for tech and productivity enthusiasts. Whether you're passionate about custom PC builds, gaming setups, work environments, keyboard constructions, or streaming setups, BuildShare is your go-to destination. This project is built on the solid foundations of React, TypeScript, and Vite, offering a fast, efficient, and engaging user experience.
+
+Leveraging Appwrite as our backend-as-a-service, we ensure secure and scalable cloud services for authentication, database, storage, and more, making it easier for users to share and manage their content securely. With the integration of React Query, now part of the TanStack suite, we provide a seamless data fetching, caching, and state management experience, ensuring that our users have up-to-the-minute access to the latest tech and productivity setups.
+
+Featuring hot module replacement (HMR) for seamless development and a robust ESLint setup for maintaining code quality, BuildShare is dedicated to fostering a community where individuals can share, explore, and draw inspiration from each other's tech and productivity setups. Join us in building and sharing the future of tech and productivity spaces.
 
 ## Features
 
