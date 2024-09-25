@@ -31,7 +31,7 @@ Make sure you have the following installed on your machine:
 
 ```sh
 git clone https://github.com/freddykhant/buildshare_app.git
-cd social_media_app
+cd buildshare_app
 ```
 
 ### Installation
