@@ -30,7 +30,7 @@ Make sure you have the following installed on your machine:
 ### Cloning the Repository
 
 ```sh
-git clone https://github.com/adrianhajdin/social_media_app.git
+git clone https://github.com/freddykhant/buildshare_app.git
 cd social_media_app
 ```
 
